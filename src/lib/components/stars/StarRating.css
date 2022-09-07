@@ -1,0 +1,21 @@
+:root {
+    --percentFilled: 0;
+}
+
+.star-percent {
+    background: linear-gradient(to right, orange var(--percentFilled), grey var(--percentFilled));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.star-filled {
+    background: orange;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.star-empty {
+    background: gray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
